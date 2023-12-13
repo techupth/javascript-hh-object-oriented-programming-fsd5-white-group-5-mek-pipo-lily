@@ -1,5 +1,12 @@
-class Notification { }
+class Notification {
+  constructor(notificationID, createdTime, content, receiver) {
+    this.notificationID = notificationID;
+    this.createdTime = createdTime;
+    this.content = content;
+    this.receiver = receiver;
+  }
+}
 
-class EmailNotification { }
+class EmailNotification {}
 
-class SMSNotification { }
+class SMSNotification {}
